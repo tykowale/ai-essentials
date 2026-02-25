@@ -40,21 +40,21 @@ Command playbooks you can wire into your tool's command system or invoke manuall
 
 | Command                                           | Description                                                   |
 |---------------------------------------------------|---------------------------------------------------------------|
-| [test](plugins/ce/commands/test.md)               | Run tests and analyze failures                                |
-| [explain](plugins/ce/commands/explain.md)         | Break down code or concepts                                   |
-| [debug](plugins/ce/commands/debug.md)             | Launch systematic debugging                                   |
-| [optimize](plugins/ce/commands/optimize.md)       | Find performance bottlenecks                                  |
-| [refactor](plugins/ce/commands/refactor.md)       | Improve code quality                                          |
-| [review](plugins/ce/commands/review.md)           | Code review with tracked findings and fix workflow            |
-| [commit](plugins/ce/commands/commit.md)           | Preflight checks, semantic commit, auto-fix on hook failure   |
-| [deps](plugins/ce/commands/deps.md)               | Audit and upgrade dependencies                                |
-| [fix-issue](plugins/ce/commands/fix-issue.md)     | Fix a GitHub issue by number                                  |
-| [pr](plugins/ce/commands/pr.md)                   | Create a pull request with auto-generated description         |
-| [document](plugins/ce/commands/document.md)       | Create or improve documentation                               |
-| [plan](plugins/ce/commands/plan.md)               | Create a detailed implementation plan                         |
-| [execute](plugins/ce/commands/execute.md)         | Execute an implementation plan from the plans folder          |
-| [init](plugins/ce/commands/init.md)               | Bootstrap repo with config (rules, permissions, settings)     |
-| [post-mortem](plugins/ce/commands/post-mortem.md) | Review a session to assess execution and extract improvements |
+| [test](ai/commands/test.md)               | Run tests and analyze failures                                |
+| [explain](ai/commands/explain.md)         | Break down code or concepts                                   |
+| [debug](ai/commands/debug.md)             | Launch systematic debugging                                   |
+| [optimize](ai/commands/optimize.md)       | Find performance bottlenecks                                  |
+| [refactor](ai/commands/refactor.md)       | Improve code quality                                          |
+| [review](ai/commands/review.md)           | Code review with tracked findings and fix workflow            |
+| [commit](ai/commands/commit.md)           | Preflight checks, semantic commit, auto-fix on hook failure   |
+| [deps](ai/commands/deps.md)               | Audit and upgrade dependencies                                |
+| [fix-issue](ai/commands/fix-issue.md)     | Fix a GitHub issue by number                                  |
+| [pr](ai/commands/pr.md)                   | Create a pull request with auto-generated description         |
+| [document](ai/commands/document.md)       | Create or improve documentation                               |
+| [plan](ai/commands/plan.md)               | Create a detailed implementation plan                         |
+| [execute](ai/commands/execute.md)         | Execute an implementation plan from the plans folder          |
+| [init](ai/commands/init.md)               | Bootstrap repo with config (rules, permissions, settings)     |
+| [post-mortem](ai/commands/post-mortem.md) | Review a session to assess execution and extract improvements |
 
 ### Skills
 
@@ -64,60 +64,60 @@ Reusable development patterns.
 
 | Skill                                                                                       | Description                                             |
 |---------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [writing-tests](plugins/ce/skills/writing-tests/SKILL.md)                                   | Testing Trophy methodology, behavior-focused tests      |
-| [verification-before-completion](plugins/ce/skills/verification-before-completion/SKILL.md) | Verify before claiming success                          |
-| [preflight-checks](plugins/ce/skills/preflight-checks/SKILL.md)                             | Auto-detect and run project linters/formatters/checkers |
+| [writing-tests](ai/skills/writing-tests/SKILL.md)                                   | Testing Trophy methodology, behavior-focused tests      |
+| [verification-before-completion](ai/skills/verification-before-completion/SKILL.md) | Verify before claiming success                          |
+| [preflight-checks](ai/skills/preflight-checks/SKILL.md)                             | Auto-detect and run project linters/formatters/checkers |
 
 **Debugging & Problem Solving:**
 
 | Skill                                                                         | Description                                   |
 |-------------------------------------------------------------------------------|-----------------------------------------------|
-| [systematic-debugging](plugins/ce/skills/systematic-debugging/SKILL.md)       | Four-phase debugging framework                |
-| [fixing-flaky-tests](plugins/ce/skills/fixing-flaky-tests/SKILL.md)           | Diagnose and fix tests that fail concurrently |
-| [condition-based-waiting](plugins/ce/skills/condition-based-waiting/SKILL.md) | Replace race conditions with polling          |
-| [reading-logs](plugins/ce/skills/reading-logs/SKILL.md)                       | Efficient log analysis using targeted search  |
+| [systematic-debugging](ai/skills/systematic-debugging/SKILL.md)       | Four-phase debugging framework                |
+| [fixing-flaky-tests](ai/skills/fixing-flaky-tests/SKILL.md)           | Diagnose and fix tests that fail concurrently |
+| [condition-based-waiting](ai/skills/condition-based-waiting/SKILL.md) | Replace race conditions with polling          |
+| [reading-logs](ai/skills/reading-logs/SKILL.md)                       | Efficient log analysis using targeted search  |
 
 **Code Quality:**
 
 | Skill                                                                       | Description                                                 |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------|
-| [refactoring-code](plugins/ce/skills/refactoring-code/SKILL.md)             | Behavior-preserving code improvements                       |
-| [optimizing-performance](plugins/ce/skills/optimizing-performance/SKILL.md) | Measurement-driven optimization                             |
-| [handling-errors](plugins/ce/skills/handling-errors/SKILL.md)               | Error handling best practices                               |
-| [migrating-code](plugins/ce/skills/migrating-code/SKILL.md)                 | Safe migration patterns for databases, APIs, and frameworks |
+| [refactoring-code](ai/skills/refactoring-code/SKILL.md)             | Behavior-preserving code improvements                       |
+| [optimizing-performance](ai/skills/optimizing-performance/SKILL.md) | Measurement-driven optimization                             |
+| [handling-errors](ai/skills/handling-errors/SKILL.md)               | Error handling best practices                               |
+| [migrating-code](ai/skills/migrating-code/SKILL.md)                 | Safe migration patterns for databases, APIs, and frameworks |
 
 **Planning & Execution:**
 
 | Skill                                                                   | Description                                             |
 |-------------------------------------------------------------------------|---------------------------------------------------------|
-| [writing-plans](plugins/ce/skills/writing-plans/SKILL.md)               | Create implementation plans with devils-advocate review |
-| [executing-plans](plugins/ce/skills/executing-plans/SKILL.md)           | Execute plans with mandatory code review                |
-| [architecting-systems](plugins/ce/skills/architecting-systems/SKILL.md) | Clean, scalable system architecture for the build phase |
-| [design](plugins/ce/skills/design/SKILL.md)                             | Frontend design skill                                   |
+| [writing-plans](ai/skills/writing-plans/SKILL.md)               | Create implementation plans with devils-advocate review |
+| [executing-plans](ai/skills/executing-plans/SKILL.md)           | Execute plans with mandatory code review                |
+| [architecting-systems](ai/skills/architecting-systems/SKILL.md) | Clean, scalable system architecture for the build phase |
+| [design](ai/skills/design/SKILL.md)                             | Frontend design skill                                   |
 
 **Documentation & Writing:**
 
 | Skill                                                                             | Description                                                                                               |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [writer](plugins/ce/skills/writer/SKILL.md)                                       | Writing style guide with 7 personas (Architect, Engineer, PM, Marketer, Educator, Contributor, UX Writer) |
-| [strategy-writer](plugins/ce/skills/strategy-writer/SKILL.md)                     | Executive-quality strategic documents in Economist/HBR style                                              |
-| [documenting-systems](plugins/ce/skills/documenting-systems/SKILL.md)             | Best practices for writing markdown documentation                                                         |
-| [documenting-code-comments](plugins/ce/skills/documenting-code-comments/SKILL.md) | Standards for self-documenting code and inline comments                                                   |
+| [writer](ai/skills/writer/SKILL.md)                                       | Writing style guide with 7 personas (Architect, Engineer, PM, Marketer, Educator, Contributor, UX Writer) |
+| [strategy-writer](ai/skills/strategy-writer/SKILL.md)                     | Executive-quality strategic documents in Economist/HBR style                                              |
+| [documenting-systems](ai/skills/documenting-systems/SKILL.md)             | Best practices for writing markdown documentation                                                         |
+| [documenting-code-comments](ai/skills/documenting-code-comments/SKILL.md) | Standards for self-documenting code and inline comments                                                   |
 
 **Data & Infrastructure:**
 
 | Skill                                                               | Description                                                         |
 |---------------------------------------------------------------------|---------------------------------------------------------------------|
-| [managing-databases](plugins/ce/skills/managing-databases/SKILL.md) | PostgreSQL, DuckDB, Parquet, and PGVector architecture              |
-| [managing-pipelines](plugins/ce/skills/managing-pipelines/SKILL.md) | GitHub Actions CI/CD security, performance, and deployment patterns |
+| [managing-databases](ai/skills/managing-databases/SKILL.md) | PostgreSQL, DuckDB, Parquet, and PGVector architecture              |
+| [managing-pipelines](ai/skills/managing-pipelines/SKILL.md) | GitHub Actions CI/CD security, performance, and deployment patterns |
 
 **Meta Skills:**
 
 | Skill                                                                           | Description                                         |
 |---------------------------------------------------------------------------------|-----------------------------------------------------|
-| [visualizing-with-mermaid](plugins/ce/skills/visualizing-with-mermaid/SKILL.md) | Create professional technical diagrams              |
-| [post-mortem](plugins/ce/skills/post-mortem/SKILL.md)                           | Review sessions to extract actionable improvements  |
-| [configuring-claude](plugins/ce/skills/configuring-claude/SKILL.md)             | Best practices for writing skills, rules, CLAUDE.md |
+| [visualizing-with-mermaid](ai/skills/visualizing-with-mermaid/SKILL.md) | Create professional technical diagrams              |
+| [post-mortem](ai/skills/post-mortem/SKILL.md)                           | Review sessions to extract actionable improvements  |
+| [configuring-claude](ai/skills/configuring-claude/SKILL.md)             | Best practices for writing skills, rules, CLAUDE.md |
 
 ### Agents
 
@@ -125,10 +125,10 @@ Expert personas for complex work.
 
 | Agent                                                   | Description                                          |
 |---------------------------------------------------------|------------------------------------------------------|
-| [code-reviewer](plugins/ce/agents/code-reviewer.md)     | Comprehensive PR/MR reviews enforcing standards      |
-| [haiku](plugins/ce/agents/haiku.md)                     | Lightweight agent for simple delegated tasks         |
-| [log-reader](plugins/ce/agents/log-reader.md)           | Efficient log file analysis using targeted search    |
-| [devils-advocate](plugins/ce/agents/devils-advocate.md) | Rigorous critique to find flaws in plans and designs |
+| [code-reviewer](ai/agents/code-reviewer.md)     | Comprehensive PR/MR reviews enforcing standards      |
+| [haiku](ai/agents/haiku.md)                     | Lightweight agent for simple delegated tasks         |
+| [log-reader](ai/agents/log-reader.md)           | Efficient log file analysis using targeted search    |
+| [devils-advocate](ai/agents/devils-advocate.md) | Rigorous critique to find flaws in plans and designs |
 
 ### Hooks
 

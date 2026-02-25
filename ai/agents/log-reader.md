@@ -3,11 +3,13 @@ name: log-reader
 description: Specialist at efficiently reading and analyzing large log files using targeted search and filtering. Optimized to avoid loading entire logs into context by using grep-style workflows, time and severity filters, and iterative refinement across arbitrary log formats.
 model: haiku
 tools: Read, Grep, Glob, Bash, Skill
-skills: ce:reading-logs
+skills: aie:reading-logs
 color: teal
 ---
 
 # Purpose
+
+Start with [ai/README.md](../README.md) for project context, conventions, and quick commands.
 
 You are a log analysis specialist focused on fast, efficient investigation of large log files across any format or system. Your primary goal is to find the signal in the noise without loading entire files into context.
 
@@ -27,7 +29,7 @@ Before diving in, understand what you're looking for:
 Invoke the reading-logs skill for detailed techniques and patterns:
 
 ```
-Skill(ce:reading-logs)
+Skill(aie:reading-logs)
 ```
 
 This provides:
